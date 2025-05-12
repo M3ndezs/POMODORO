@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#timer {
+  font-size: 5em;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.settings input {
+  width: 50px;
+  text-align: center;
+  margin-left: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer de estudos</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>POMODORO – cronômetro para estudos</h1>
+    <div id="timer">
+        <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+<br>
+    <div>
+        <button id="startButton">Iniciar</button>
+        <button id="pauseButton">Pausar</button>
+        <button id="resetButton">Reiniciar</button>
+        <button onclick="toggleTheme()">🌙 Modo Noturno</button>
+    </div>
+<br>
+    <div id="settings">
+        <label>Foco (min): <input type="number" id="focusTime" value="25"></label>
+        <label>Pausa (min): <input type="number" id="breakTime" value="5"></label>
+        <button onclick="applyCustomTime()">Aplicar</button>
+    </div>
+
+
+    <audio id="alarm" src="som/ringtone-297922.mp3" preload="auto"></audio>
+    
+
+<script src="script.js"></script>
+</body>
+
+</html>
