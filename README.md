@@ -16,10 +16,9 @@ A técnica Pomodoro é um método de gerenciamento de tempo que divide o trabalh
 
 ---
 
-## 🎥 Demonstração
+## 📷 Demonstração
 
-Veja o timer funcionando abaixo:
-
+![Captura de tela 2025-05-23 142935](https://github.com/user-attachments/assets/8e716747-7092-441d-9e10-3a8848fd8a8e)
 
 ---
 
@@ -46,3 +45,14 @@ timer = setInterval(() => {
     isRunning = false;
   }
 }, 1000);
+
+```
+---
+## 🔗 Acesse o Projeto
+
+Você pode jogar online ou clonar o repositório:
+
+
+* 🌐 [GitHub Pages](https://m3ndezs.github.io/POMODORO/)
+
+  
